@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>3d Model For Engineering</title>
-  <link rel="stylesheet" href="css/mycss.css" type="text/css">
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model For Engineering</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <style>
+        /* Custom CSS */
+        .background-image {
+            background-image: url('./images/background.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        .custom-card {
+            border: none;
+            transform: translateY(0);
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            background-color: rgba(255, 255, 255, 0.8);
+            /* Add a background color to the card for better readability */
+        }
+
+        .custom-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
 </head>
 
-<body>
-  <h1>Welcome To 3D model for engineering by Arun Shrestha</h1>
-  <div id="liscence-agreement">
-    <p id="disclaimer">Disclaimer:</p>
-    <p class="terms">This Website is to be taken as a reference guide for Engineering Drawing-I Tutorials.</p>
-    <p class="terms">Not as a Cheat Sheet for easy copying of Solutions.</p>
-    <p class="terms">Real Mastery Comes From Self Practice Only.</p>
-    <P id="myterms">I am not responsible for any misuse of this Website as Cheat Sheet, Which if done, will surely lead
-      to Failure in
-      Self Learning</P>
-    <P id="accept">I accept the Terms and Condition of Use:</P>
-    <div id="yesno">
-      <a href="Semester.html"><button>Yes</button></a>
-      <a href="no.html"><button>No</button></a>
+<body class="background-image">
+    <div class="container">
+        <h1 class="mt-5 text-black">Welcome To 3D Model for Engineering by Arun Shrestha</h1>
+        <div class="card mt-3 custom-card">
+            <div class="card-body">
+                <h5 class="card-title">Disclaimer:</h5>
+                <p class="card-text">This Website is to be taken as a reference guide for Engineering Drawing-I
+                    Tutorials.</p>
+                <p class="card-text">Not as a Cheat Sheet for easy copying of Solutions.</p>
+                <p class="card-text">Real Mastery Comes From Self Practice Only.</p>
+                <p class="card-text">I am not responsible for any misuse of this Website as Cheat Sheet, Which if done,
+                    will
+                    surely lead to Failure in Self Learning.</p>
+                <p class="card-text">I accept the Terms and Conditions of Use:</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="Semester.html" class="btn btn-primary me-md-2">Yes</a>
+                    <a href="no.html" class="btn btn-secondary">No</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-  </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
